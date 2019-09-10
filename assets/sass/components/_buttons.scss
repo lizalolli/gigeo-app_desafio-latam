@@ -1,0 +1,17 @@
+.button{
+    padding: .7rem 2rem;
+    border-radius: 30px;
+    font-family: $roboto;
+    font-size: $medium;
+    color:$white;
+    background-color: $nickel;
+    font-weight: $regular;
+    &:hover{
+        background-color: $light-gray;
+    }
+
+}
+
+.button-align{
+    text-align: center;
+}

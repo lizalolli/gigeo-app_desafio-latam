@@ -1,0 +1,39 @@
+.profile__banner{
+    background-image:url('../img/image-banner.png');
+    height: 300px;
+    size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+.profile__personal-info{ 
+    flex-grow: 1;
+    h1,h2,h3,p{
+        display: inline;
+        float:left;
+    }
+    
+    img{
+    border-radius: 200px;
+    max-width:100px;
+    height: auto;
+    float:left;
+    }
+}
+
+.profile__buttons{
+    flex-grow: 1;
+    //justify-content: center;
+    //align-items: center;
+}
+
+//.profile__buttons-son{
+    //height: 300px; agrandar height de contenedor sin afectar img
+//}
+
+
+.profile{
+    max-height: 500px;;
+}
+

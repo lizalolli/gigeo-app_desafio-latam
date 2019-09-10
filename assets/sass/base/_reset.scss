@@ -1,0 +1,16 @@
+//restableces valores de css ayudando a que los estilos sean mucho más homogéneos.
+// Reset / Normalize // sirven para resetear aspectos del css.
+html, body{
+    max-width: 100%;
+    //overflow-x: hidden;
+    margin:0;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, h3, h4, p{
+    margin:0;
+    padding:0;
+}
