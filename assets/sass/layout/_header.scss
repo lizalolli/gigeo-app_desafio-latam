@@ -1,3 +1,9 @@
+nav a span{
+    font-size: 8px;
+    font-weight: 700;
+    font-family: $raleway;
+}
+
 .profile__banner{
     background-image:url('../img/image-banner.png');
     height: 300px;
@@ -9,20 +15,27 @@
 
 .profile__personal-info{ 
     flex-grow: 1;
-    h1,h2,h3,p{
+    h1,h2,h3{
         display: inline;
+        float :left;
+        font-family: $raleway;
+        color:$black;
+    }
+    img{
+        border-radius: 200px;
+        max-width:100px;
+        height: auto;
         float:left;
     }
-    
-    img{
-    border-radius: 200px;
-    max-width:100px;
-    height: auto;
-    float:left;
+    p{
+        display: inline;
+        float:left;
+        font-family: $raleway;
+        color:$gray;
     }
 }
-
-.profile__buttons{
+ 
+le__buttons{
     flex-grow: 1;
     //justify-content: center;
     //align-items: center;
@@ -34,6 +47,6 @@
 
 
 .profile{
-    max-height: 500px;;
+    max-height: 450px;;
 }
 
